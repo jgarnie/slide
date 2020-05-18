@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: black;
+}
+.container{
+    background-color: white;
+    width: 60%;
+    margin: auto;
+}
+.wrap{
+    display: flex;
+}
+#navBar{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    height: 100vh;
+}
+
+
+#navBar a,#navBar h1{
+    color:white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding:1rem;
+    min-width: 300px;
+}
+#menuLog{
+    background-color: blue;
+    
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    transition: 2s;
+    background-color: blue;
+   
+}
+.menu2{
+    display: flex;
+    flex-direction: column;
+    width:0px;
+    transition: 2s;
+    background-color: blue;
+}
+
+article{
+    color:black;
+    padding:2rem;
+    max-width: 800px;
+}
